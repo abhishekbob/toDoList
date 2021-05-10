@@ -1,0 +1,30 @@
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  font-size: x-large;
+  text-align: center;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.text {
+  margin-left: 30px;
+}
+.title {
+  font-size: larger;
+}
+.button {
+  padding: 10px;
+  border-radius: 50%;
+  float: right;
+  font-size: 17px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
