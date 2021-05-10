@@ -1,0 +1,2 @@
+.blink{animation:blink-animation 1s steps(5,start) infinite;-webkit-animation:blink-animation 1s steps(5,start) infinite;font-size:x-large;text-align:center}@keyframes blink-animation{to{visibility:hidden}}.text{margin-left:30px}.title{font-size:larger}.button{padding:10px;border-radius:50%;float:right;font-size:17px;margin-right:10px;margin-top:10px}.btn:hover{background-color:#000;color:azure}
+/*# sourceMappingURL=main.88fdb9b7.chunk.css.map */
